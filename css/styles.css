@@ -122,3 +122,17 @@ input:checked ~ .slide {
     transform: translateX(0);
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
+
+select {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    right: 250px;
+    padding: 2px;
+    top: 10px;
+    background: transparent;
+    color: #00f;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
